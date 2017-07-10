@@ -3,7 +3,8 @@
  */
 
 interface People{
-    name:string
+    name:string,
+    like?:string    //可选属性
 }
 function whoAmI(people:People){
     console.log(people.name)
@@ -11,7 +12,7 @@ function whoAmI(people:People){
 
 let ld={
     age:18,
-    name:'lidan'
+    name:'lidans'
 };
 
 

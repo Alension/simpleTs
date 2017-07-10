@@ -4,8 +4,9 @@
 function whoAmI(people) {
     console.log(people.name);
 }
-var ld = {
+let ld = {
     age: 18,
-    name: 'lidan'
+    name: 'lidans'
 };
 whoAmI(ld);
+//# sourceMappingURL=demo1.js.map
